@@ -1,0 +1,236 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header, body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    font-size: 10px;
+}
+
+body {
+    background-color : #24204ec4;
+    width : 1100px;
+    min-height : 200px;
+    margin : 10px auto;
+    padding : 5px 5px 5px 5px;
+    border : #6d7673 solid 1px;
+}
+
+section {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: antiquewhite;
+    text-shadow: 2px 2px #02271a;
+    padding-bottom: 10px;
+}
+
+.accueil {
+    background: #737697;
+    padding-left: 15px;
+}
+
+.prix {
+    background: #737697;
+    padding-left: 15px;
+}
+
+.livraison {
+    background: #737697;
+    padding-left: 15px;
+}
+
+.commander {
+    background: #737697;
+    padding-left: 15px;
+}
+
+.blogue {
+    background: #737697;
+    padding-left: 15px;
+}
+
+.contacte {
+    background: #737697;
+    padding-left: 15px;
+}
+
+.plainte {
+    background: #737697;
+    padding-left: 15px;
+}
+
+p#slogan {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 30px;
+}
+
+p.avantpartie {
+    padding-bottom: 20px;
+}
+
+.haut a {
+    float: right;
+    position: relative;
+    bottom: 100px;
+    right: 1px;
+    margin-right: -8%;
+    border-radius: 15%;
+    background-color: #24204ec4;
+    padding: 10px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+}
+
+ol {
+    padding-left: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul {
+    padding-left: 45px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #24204ec4;
+    text-transform: uppercase;
+}
+
+td, th {
+    border: 1px solid #24204ec4;
+    text-align: left;
+    padding: 8px;
+}
+
+#shopcontact {
+    width: 621px;
+    padding: 4%;
+    margin-left: 18%;
+}
+
+.imageblogue img:hover {
+    box-shadow: 0 0 2px 1px antiquewhite;
+    border: 1px solid #6d7673;
+    border-radius: 4px;
+    padding: 1px;
+    width: 270px;
+}
+
+div.imagesblogue {
+    text-align: center;
+}
+
+a.imageblogue, img.imageblogue {
+    text-decoration: none !important;
+    border:0px;
+    outline:none;
+    border-width: 0px;
+    outline-width:0px;
+    border-bottom: none;
+    width: 250px;
+    border-radius: 4px;
+}
+
+.bouton {
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: #24204ec4;
+    color: #5B82D1;
+    text-shadow: 1px 1px black;
+    padding: 10px 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+.bouton:hover {
+    background-color: #24204ec4;
+    color: antiquewhite;
+    text-shadow: 1px 1px black;
+    box-shadow: 0 0 2px 1px antiquewhite;
+}
+
+form.formulaire {
+    background-color: #565376;
+    border-radius: 4px;
+    padding: 2% 4%;
+    min-height: 400px;
+}
+
+input[type=text], input[type=date] {
+    width: 100%;
+    padding: 10px 14px;
+    margin: 8px 0;
+    border: 1px solid antiquewhite;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form.formulaire textarea {
+    width: 100%;
+    height: 50px;
+    padding: 12px 20px;
+    resize: vertical;
+    min-height: 50px;
+    max-height: 300px;
+    padding: 10px 14px;
+    border: 1px solid antiquewhite;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+div.questions {
+    float: left;
+    width: 25%;
+}
+  
+div.reponses {
+    float: left;
+    width: 75%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: #483869;
+    padding: 4% 2%;
+}
+
+a.intern {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #02271a;
+    color: rgb(250, 215, 220);
+    font-weight: bold;
+}
+
+

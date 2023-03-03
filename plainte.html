@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="styleWeb.css">
+    <link rel="stylesheet" href="styleMenu.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpveroort" content="width=device-width, initial-scale=1.0">
+    <title>Mrs. MOONLIGHT !</title>
+</head>
+
+<body>
+
+    <header>
+        
+        <div class="entete">
+
+            <p class="copyright">© canva.com</p>
+
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">accueil</a></li>
+                    <li><a href="prix.html">prix</a></li>
+                    <li><a href="commander.html">comment commander?</a></li>
+                    <li><a href="blogue.html">blogue</a></li>
+                    <li><a href="contacte.html">contactez-nous</a></li>
+                    <li><a href="#plainte" class="active">plaintes</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+    
+    <section id="plainte" class="plainte">
+
+        <h2> plaintes </h2>
+
+        <p class="avantpartie">
+            Remplissez le formulaire ci-dessous et nous allons vous répondre le 
+            plus vite possible !
+        </p>
+
+        <form class="formulaire">  
+
+            <div class="row">   
+                <div class="questions">   
+                    <label for="nom">Nom : </label>
+                </div>
+                <div class="reponses">
+                    <input type="text" name="nom" id="nom" placeholder="Votre nom ...">
+                </div>
+            </div>
+            
+            <div class="row"> 
+                <div class="questions"> 
+                    <label for="prenom">Prenom : </label>
+                </div>
+                <div class="reponses">
+                    <input type="text" name="prenom" id="prenom" placeholder="Votre prénom ...">
+                </div>
+            </div>
+
+            <div class="row"> 
+                <div class="questions"> 
+                    <label for="courriel">Adresse courriel : </label>
+                </div>
+                <div class="reponses">
+                    <input type="text" name="courriel" id="courriel" placeholder="Votre adresse courriel ...">
+                </div>
+            </div>
+
+            <div class="row"> 
+                <div class="questions"> 
+                    <label for="cellulaire">Numéro de téléphone (optionel) : </label>
+                </div>
+                <div class="reponses">
+                    <input type="text" name="cellulaire" id="cellulaire" placeholder="Votre numéro de téléphone ...">
+                </div>
+            </div>
+            
+            <div class="row"> 
+                <div class="questions"> 
+                    <label for="date">* Date de la commande : </label>
+                </div>
+                <div class="reponses">
+                    <input type="date" name="date" id="date" >
+                </div>
+            </div>
+            
+            <div class="row"> 
+                <div class="questions"> 
+                    <label for="numconfirm">* Numéro de confirmation de la commande : </label>
+                </div>
+                <div class="reponses">
+                    <input type="text" name="numconfirm" id="numconfirm" placeholder="#ABCD123456">
+                </div>
+            </div>
+            
+            <div class="row"> 
+                <div class="questions"> 
+                    <label for="commentaire">Motifs de la plainte : </label>
+                </div>
+                <div class="reponses">
+                    <textarea id="commentaire" name="commentaire" placeholder="Écrivez votre commentaire ici ..."></textarea>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="row"> 
+                <div class="reponses">
+                    <input type="button" class="bouton" value="Soumettre">
+                    <input type="button" class="bouton" value="Reset">
+                </div>
+            </div>
+
+        </form>
+
+        <br>
+
+        <p>
+            * La date de la commande et le numéro de confirmation de la commande
+            se trouvent dans le courriel de confirmation de la reception de votre 
+            commande.
+        </p>
+
+        <div class="haut">
+            <a href="#"> ▲ <br> HAUT </a>
+        </div>
+        
+    </section>
+    
+</body>

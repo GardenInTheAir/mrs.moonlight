@@ -1,0 +1,50 @@
+div.entete {
+    background-image: url("photos/Accueil_intro.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position:relative;
+    padding-top: 47vh;
+    text-transform: uppercase;
+    border: #6d7673 solid 1px;
+}
+
+.copyright {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    font-size: 10px;
+    color: #5B82D1;
+    text-shadow: 1px 1px black;
+}
+
+nav#menu {
+    margin: 45px 0 0 0;
+}
+
+nav#menu ul li {
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    margin-left: 0%;
+}
+
+nav#menu a {
+    
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 16px 10px;
+    text-decoration: none;
+    text-shadow: 2px 2px #02271a;
+    font-size: 20px;
+    color:#5B82D1;
+    display: inline-block;
+}
+
+nav#menu a:hover {
+    color: antiquewhite;
+}
+
+nav#menu a.active {
+    color: antiquewhite;
+}
